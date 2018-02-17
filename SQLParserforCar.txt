@@ -1,0 +1,13 @@
+CREATE TABLE CarTableData (
+    `DriveAndRent` INT,
+    `DriveAndRent_xmlns_xsi` VARCHAR(41) CHARACTER SET utf8,
+    `DriveAndRent_Car` INT,
+    `DriveAndRent_Car_car_id` INT,
+    `DriveAndRent_Car_car_type` VARCHAR(5) CHARACTER SET utf8,
+    `DriveAndRent_Car_car_seats` INT,
+    `DriveAndRent_Car_per_hour` NUMERIC(3, 1)
+);
+INSERT INTO CarTableData VALUES (NULL,'http://www.w3.org/2001/XMLSchema-instance',NULL,1,'SUV',4,15);
+INSERT INTO CarTableData VALUES (NULL,'http://www.w3.org/2001/XMLSchema-instance',NULL,2,'Sedan',3,12.5);
+INSERT INTO CarTableData VALUES (NULL,'http://www.w3.org/2001/XMLSchema-instance',NULL,3,'SUV',4,15);
+INSERT INTO CarTableData VALUES (NULL,'http://www.w3.org/2001/XMLSchema-instance',NULL,4,'XL',6,17.5);
